@@ -21,46 +21,14 @@ run-shell "/path/to/tmux-power.tmux"
 **Install using [TPM](https://github.com/tmux-plugins/tpm)**
 
 ```tmux
-set -g @plugin 'wfxr/tmux-power'
+set -g @plugin 'PierrickGT/tmux-power'
 ```
 
 ### 🎨 Themes
 
-**Gold**(default): `set -g @tmux_power_theme 'gold'`
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-gold.png)
-
-**Redwine**: `set -g @tmux_power_theme 'redwine'`
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-redwine.png)
-
-**Moon**: `set -g @tmux_power_theme 'moon'`
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-moon.png)
-
-**Forest**: `set -g @tmux_power_theme 'forest'`
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-forest.png)
-
-**Violet**: `set -g @tmux_power_theme 'violet'`
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-violet.png)
-
-**Snow**: `set -g @tmux_power_theme 'snow'`
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-snow.png)
-
-**Coral**: `set -g @tmux_power_theme 'coral'`
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-coral.png)
-
-**Sky**: `set -g @tmux_power_theme 'sky'`
-![screenshot](https://raw.githubusercontent.com/wfxr/i/master/tmux-power-sky.png)
-
-**Default**: `set -g @tmux_power_theme 'default'`
-Set this theme if you want to honor the terminal colorscheme. To be used with
-something like [pywal](https://github.com/dylanaraps/pywal) for instance.
+Custom theme using [Solarized](https://ethanschoonover.com/solarized/) color palette.
 
 ### ⚙  Customizing
-
-You can define your favourite main color if you don't like any of above.
-
-```tmux
-set -g @tmux_power_theme '#483D8B' # dark slate blue
-```
 
 You can change the date and time formats using strftime:
 
