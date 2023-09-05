@@ -119,10 +119,10 @@ tmux_set clock-mode-colour "$BG"
 tmux_set clock-mode-style 24
 
 # Message
-tmux_set message-style "fg=$BG,bg=$BG"
+tmux_set message-style "fg=$FG,bg=$BG"
 
 # Command message
-tmux_set message-command-style "fg=$BG,bg=$BG"
+tmux_set message-command-style "fg=$FG,bg=$BG"
 
 # Copy mode highlight
 tmux_set mode-style "bg=$BG,fg=$FG"
