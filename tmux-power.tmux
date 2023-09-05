@@ -68,7 +68,7 @@ LS="#[fg=$BG,bg=$FG] $session_icon #S "
 if "$show_upload_speed"; then
 	LS="$LS#[fg=$FG,bg=$G02]$right_arrow_icon#[fg=$BG,bg=$G02] $upload_speed_icon #{upload_speed} #[fg=$G02,bg=$BG]$right_arrow_icon"
 else
-	LS="$LS#[fg=$BG,bg=$FG]$right_arrow_icon"
+	LS="$LS#[fg=$FG,bg=$BG]$right_arrow_icon"
 fi
 if [[ $prefix_highlight_pos == 'L' || $prefix_highlight_pos == 'LR' ]]; then
 	LS="$LS#{prefix_highlight}"
